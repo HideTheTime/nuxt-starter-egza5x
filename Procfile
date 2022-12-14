@@ -1,1 +1,1 @@
-Web： npm install && npm run build && npm runt start
+Web： npm install && npm run build && npm run start
