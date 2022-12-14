@@ -1,5 +1,5 @@
 {
-  "name":"nuxt-starter-egza5x"
+  "name":"nuxt-starter-egza5x",
   "private": true,
   "scripts": {
     "build": "nuxt build",
