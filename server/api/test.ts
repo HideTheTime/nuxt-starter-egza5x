@@ -1,5 +1,8 @@
-export default defineEventHandler(async (e) => {
-  let date = await Date.now();
 
-  return { date };
+
+export default defineEventHandler(async (e) =>
+{
+	let date = await Date.now();
+
+	return { date, hello: `world` };
 });
