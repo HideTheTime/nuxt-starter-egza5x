@@ -3,9 +3,9 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "preview": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "dev": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
