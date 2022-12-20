@@ -9,7 +9,7 @@ bot.launch();
 export default defineEventHandler(async (e) => {
 	// let date = await Date.now();
 
-    const body = useBody(e)
+    const body =await useBody(e)
     console.log(body)
 	return {
 		dateTime: Date.now(),
